@@ -10,7 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, // menghilangkan banner Debug
       home: Scaffold(
+          backgroundColor: Colors.green,
           appBar: AppBar(title: Text("My Apps")), // add title in app bar
           body: Center(
             child: Text("HALO"),
