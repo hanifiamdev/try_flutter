@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("My Apps")),
-      ),
+          appBar: AppBar(title: Text("My Apps")), // add title in app bar
+          body: Center(
+            child: Text("HALO"),
+          )),
     );
   }
 }
