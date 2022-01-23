@@ -12,10 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // menghilangkan banner Debug
       home: Scaffold(
-          backgroundColor: Color(0xff545454),
           appBar: AppBar(title: Text("My Apps")), // add title in app bar
           body: Center(
-            child: Text("HALO"),
+            child: Text(
+              "Irure nulla minim ut magna dolore irure. Duis consequat id laborum ea anim officia enim veniam nostrud pariatur adipisicing Lorem. Voluptate pariatur reprehenderit cupidatat labore eu quis.",
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.justify,
+            ),
           )),
     );
   }
