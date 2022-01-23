@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Branch text_widget
 
-# Text() => widget terkait teks
+### Text() => widget terkait teks
 
 - maxLines: => memberi maksimal line dari teks
 - overflow:
