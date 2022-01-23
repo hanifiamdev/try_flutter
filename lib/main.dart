@@ -15,10 +15,21 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(title: Text("My Apps")), // add title in app bar
           body: Center(
             child: Text(
-              "Irure nulla minim ut magna dolore irure. Duis consequat id laborum ea anim officia enim veniam nostrud pariatur adipisicing Lorem. Voluptate pariatur reprehenderit cupidatat labore eu quis.",
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              textAlign: TextAlign.justify,
+              "Culpa cupidatat culpa tempor culpa fugiat amet sint reprehenderit consectetur pariatur irure ad ex. Tempor sint irure et commodo ex cillum. Laboris nulla ipsum est non aliquip esse pariatur dolor eu.",
+              // maxLines: 2,
+              // overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  backgroundColor: Colors.amber,
+                  color: Color(0xFFB74093),
+                  fontSize: 30,
+                  fontWeight: FontWeight.normal,
+                  letterSpacing: 10,
+                  fontFamily: 'RubikBeastly',
+                  decoration: TextDecoration.lineThrough,
+                  decorationStyle: TextDecorationStyle.wavy,
+                  decorationColor: Colors.amber,
+                  decorationThickness: 2),
             ),
           )),
     );
