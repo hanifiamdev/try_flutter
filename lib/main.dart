@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // menghilangkan banner Debug
       home: Scaffold(
-          backgroundColor: Colors.green,
+          backgroundColor: Color(0xff545454),
           appBar: AppBar(title: Text("My Apps")), // add title in app bar
           body: Center(
             child: Text("HALO"),
